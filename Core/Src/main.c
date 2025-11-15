@@ -103,11 +103,11 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   SCH_Add_Task(led1test, 100, 100);
-  SCH_Add_Task(Task_LED1, 0, 50);    // 0.5s = 50 x 10ms
-  SCH_Add_Task(Task_LED2, 0, 100);   // 1s
+  SCH_Add_Task(Task_LED1, 0, 50);    // 0.5s
   SCH_Add_Task(Task_LED3, 0, 150);   // 1.5s
-  SCH_Add_Task(Task_LED4, 0, 200);   // 2s
+  SCH_Add_Task(Task_LED2, 0, 100);   // 1s
   SCH_Add_Task(Task_LED5, 0, 250);   // 2.5s
+  SCH_Add_Task(Task_LED4, 0, 200);   // 2s
   while (1)
   {
 	  SCH_Dispatch_Tasks();
