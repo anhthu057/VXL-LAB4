@@ -3,4 +3,4 @@ led_display.c:28:6:clearAllTrafficLights	8	static
 led_display.c:33:6:display7SEG	16	static
 led_display.c:60:6:fsm_normal_mode	8	static
 led_display.c:132:6:fsm_modify_mode	8	static
-led_display.c:164:6:fsm_modify_mode_update_display	4	static
+led_display.c:165:6:fsm_modify_mode_update_display	4	static
